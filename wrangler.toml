@@ -1,8 +1,7 @@
 name = "saiportfolio"
 compatibility_date = "2026-06-18"
-main = "@tanstack/react-start/server-entry"
+main = "dist/server/server.js"
 compatibility_flags = ["nodejs_compat"]
 
 [build]
 command = "npm run build"
-upload = { format = "service-worker", dir = "dist/client" }
